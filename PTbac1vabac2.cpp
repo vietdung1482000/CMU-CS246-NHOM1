@@ -6,7 +6,7 @@ void bac1(float a,float b){
 		if (b==0) printf ("\n Pt vo so nghiem. ");
 		else printf ("\n Pt vo nghiem. ");
 	else
-		printf ("\n Nghiem PT : %0.2f",-b/a);
+		printf ("\n Nghiem PT : %0.2f",-b/a);//da bo sung
 }
 
 int main()
@@ -16,7 +16,7 @@ int main()
 	if(a==0)
 		bac1(b,c);
 	else{	
-		dt=pow(b,2)-4*a*c;
+		dt=pow(b,2)-4*a*c;//da fix
 		if (dt<0)
 			printf("\n PT vo nghiem"); 
 		if (dt==0)
